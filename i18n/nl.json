@@ -37,16 +37,85 @@
   },
   "demo": [
     {
-      "parts": ["Ik wil ", { "h": "de heg laten snoeien", "c": "mint" }, " en ", { "h": "het gras laten maaien", "c": "blue" }, " voor zaterdag."],
-      "chips": [["Heg snoeien", "mint", "sprout"], ["Gazononderhoud", "blue", "leaf"]]
+      "parts": [
+        "Ik wil ",
+        {
+          "h": "de heg laten snoeien",
+          "c": "mint"
+        },
+        " en ",
+        {
+          "h": "het gras laten maaien",
+          "c": "blue"
+        },
+        " voor zaterdag."
+      ],
+      "chips": [
+        [
+          "Heg snoeien",
+          "mint",
+          "sprout"
+        ],
+        [
+          "Gazononderhoud",
+          "blue",
+          "leaf"
+        ]
+      ]
     },
     {
-      "parts": ["In de kantoorkeuken ", { "h": "lekt de kraan", "c": "blue" }, " en de ", { "h": "ramen moeten gewassen", "c": "mint" }, "."],
-      "chips": [["Loodgieter", "blue", "wrench"], ["Glazenwassen", "mint", "grid"]]
+      "parts": [
+        "In de kantoorkeuken ",
+        {
+          "h": "lekt de kraan",
+          "c": "blue"
+        },
+        " en de ",
+        {
+          "h": "ramen moeten gewassen",
+          "c": "mint"
+        },
+        "."
+      ],
+      "chips": [
+        [
+          "Loodgieter",
+          "blue",
+          "wrench"
+        ],
+        [
+          "Glazenwassen",
+          "mint",
+          "grid"
+        ]
+      ]
     },
     {
-      "parts": ["We ", { "h": "verhuizen naar een nieuw appartement", "c": "amber" }, " en de ", { "h": "auto moet gewassen", "c": "blue" }, "."],
-      "chips": [["Verhuizen", "amber", "boxtruck"], ["Autowassen", "blue", "car"]]
+      "parts": [
+        "We ",
+        {
+          "h": "verhuizen naar een nieuw appartement",
+          "c": "amber"
+        },
+        " en de ",
+        {
+          "h": "auto moet gewassen",
+          "c": "blue"
+        },
+        "."
+      ],
+      "chips": [
+        [
+          "Verhuizen",
+          "amber",
+          "boxtruck"
+        ],
+        [
+          "Autowassen",
+          "blue",
+          "car"
+        ]
+      ]
     }
   ],
   "cats": {
@@ -59,7 +128,12 @@
     "pets": "Huisdieren",
     "vehicles": "Voertuigen",
     "personal": "Persoonlijke diensten",
-    "moving": "Verhuizen en transport"
+    "moving": "Verhuizen en transport",
+    "hint": "Kies de diensten die je zou gebruiken.",
+    "selected": "geselecteerd",
+    "ask": " Wil je weten wanneer Loqelo live gaat?",
+    "clear": "Wissen",
+    "cta": "Op de wachtlijst"
   },
   "how": {
     "title": "Van één zin naar de juiste vakman.",
@@ -157,7 +231,7 @@
     "again": "Nog een e-mailadres aanmelden",
     "crossToProvider": "Bied je ook diensten aan? Meld je aan voor de dienstverlenerslijst",
     "crossToCustomer": "Heb je ook diensten nodig? Meld je aan voor de klantenlijst",
-    "preview": "Voorbeeldmodus: er is niets verstuurd."
+    "preview": "Demomodus: dit formulier heeft niets verstuurd. Op de echte site zet deze stap je op de wachtlijst."
   },
   "final": {
     "title": "Wees erbij als Loqelo opengaat.",

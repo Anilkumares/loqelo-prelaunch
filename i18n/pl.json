@@ -37,16 +37,85 @@
   },
   "demo": [
     {
-      "parts": ["Potrzebuję ", { "h": "przyciąć żywopłot", "c": "mint" }, " i ", { "h": "skosić trawnik", "c": "blue" }, " przed sobotą."],
-      "chips": [["Przycinanie żywopłotu", "mint", "sprout"], ["Pielęgnacja trawnika", "blue", "leaf"]]
+      "parts": [
+        "Potrzebuję ",
+        {
+          "h": "przyciąć żywopłot",
+          "c": "mint"
+        },
+        " i ",
+        {
+          "h": "skosić trawnik",
+          "c": "blue"
+        },
+        " przed sobotą."
+      ],
+      "chips": [
+        [
+          "Przycinanie żywopłotu",
+          "mint",
+          "sprout"
+        ],
+        [
+          "Pielęgnacja trawnika",
+          "blue",
+          "leaf"
+        ]
+      ]
     },
     {
-      "parts": ["W biurowej kuchni ", { "h": "cieknie kran", "c": "blue" }, ", a ", { "h": "okna trzeba umyć", "c": "mint" }, "."],
-      "chips": [["Hydraulika", "blue", "wrench"], ["Mycie okien", "mint", "grid"]]
+      "parts": [
+        "W biurowej kuchni ",
+        {
+          "h": "cieknie kran",
+          "c": "blue"
+        },
+        ", a ",
+        {
+          "h": "okna trzeba umyć",
+          "c": "mint"
+        },
+        "."
+      ],
+      "chips": [
+        [
+          "Hydraulika",
+          "blue",
+          "wrench"
+        ],
+        [
+          "Mycie okien",
+          "mint",
+          "grid"
+        ]
+      ]
     },
     {
-      "parts": ["Za tydzień ", { "h": "przeprowadzamy się", "c": "amber" }, " i chcemy ", { "h": "umyć samochód", "c": "blue" }, "."],
-      "chips": [["Przeprowadzki", "amber", "boxtruck"], ["Mycie samochodu", "blue", "car"]]
+      "parts": [
+        "Za tydzień ",
+        {
+          "h": "przeprowadzamy się",
+          "c": "amber"
+        },
+        " i chcemy ",
+        {
+          "h": "umyć samochód",
+          "c": "blue"
+        },
+        "."
+      ],
+      "chips": [
+        [
+          "Przeprowadzki",
+          "amber",
+          "boxtruck"
+        ],
+        [
+          "Mycie samochodu",
+          "blue",
+          "car"
+        ]
+      ]
     }
   ],
   "cats": {
@@ -59,7 +128,12 @@
     "pets": "Zwierzęta",
     "vehicles": "Pojazdy",
     "personal": "Usługi osobiste",
-    "moving": "Przeprowadzki i transport"
+    "moving": "Przeprowadzki i transport",
+    "hint": "Wybierz usługi, z których chcesz korzystać.",
+    "selected": "zaznaczone",
+    "ask": " Chcesz wiedzieć, kiedy Loqelo wystartuje?",
+    "clear": "Wyczyść",
+    "cta": "Zapisz się na listę"
   },
   "how": {
     "title": "Od jednego zdania do właściwego wykonawcy.",
@@ -157,7 +231,7 @@
     "again": "Zapisz inny adres e-mail",
     "crossToProvider": "Oferujesz też usługi? Dołącz do listy wykonawców",
     "crossToCustomer": "Potrzebujesz też usług? Dołącz do listy klientów",
-    "preview": "Tryb podglądu: nic nie zostało wysłane."
+    "preview": "Tryb demo: ten formularz niczego nie wysłał. Na działającej stronie ten krok zapisuje Cię na listę oczekujących."
   },
   "final": {
     "title": "Bądź z nami od pierwszego dnia.",

@@ -37,16 +37,85 @@
   },
   "demo": [
     {
-      "parts": ["I need to ", { "h": "trim the hedge", "c": "mint" }, " and ", { "h": "mow the lawn", "c": "blue" }, " before Saturday."],
-      "chips": [["Hedge trimming", "mint", "sprout"], ["Lawn care", "blue", "leaf"]]
+      "parts": [
+        "I need to ",
+        {
+          "h": "trim the hedge",
+          "c": "mint"
+        },
+        " and ",
+        {
+          "h": "mow the lawn",
+          "c": "blue"
+        },
+        " before Saturday."
+      ],
+      "chips": [
+        [
+          "Hedge trimming",
+          "mint",
+          "sprout"
+        ],
+        [
+          "Lawn care",
+          "blue",
+          "leaf"
+        ]
+      ]
     },
     {
-      "parts": ["The office kitchen ", { "h": "tap is leaking", "c": "blue" }, " and the ", { "h": "windows need cleaning", "c": "mint" }, "."],
-      "chips": [["Plumbing", "blue", "wrench"], ["Window cleaning", "mint", "grid"]]
+      "parts": [
+        "The office kitchen ",
+        {
+          "h": "tap is leaking",
+          "c": "blue"
+        },
+        " and the ",
+        {
+          "h": "windows need cleaning",
+          "c": "mint"
+        },
+        "."
+      ],
+      "chips": [
+        [
+          "Plumbing",
+          "blue",
+          "wrench"
+        ],
+        [
+          "Window cleaning",
+          "mint",
+          "grid"
+        ]
+      ]
     },
     {
-      "parts": ["We're ", { "h": "moving to a new flat", "c": "amber" }, " and need the ", { "h": "car washed", "c": "blue" }, "."],
-      "chips": [["Moving", "amber", "boxtruck"], ["Car washing", "blue", "car"]]
+      "parts": [
+        "We're ",
+        {
+          "h": "moving to a new flat",
+          "c": "amber"
+        },
+        " and need the ",
+        {
+          "h": "car washed",
+          "c": "blue"
+        },
+        "."
+      ],
+      "chips": [
+        [
+          "Moving",
+          "amber",
+          "boxtruck"
+        ],
+        [
+          "Car washing",
+          "blue",
+          "car"
+        ]
+      ]
     }
   ],
   "cats": {
@@ -59,7 +128,12 @@
     "pets": "Pets",
     "vehicles": "Vehicles",
     "personal": "Personal services",
-    "moving": "Moving & transport"
+    "moving": "Moving & transport",
+    "hint": "Pick the services you'd use.",
+    "selected": "selected",
+    "ask": " Want to know when Loqelo launches?",
+    "clear": "Clear",
+    "cta": "Join the waitlist"
   },
   "how": {
     "title": "From one sentence to the right provider.",
@@ -157,7 +231,7 @@
     "again": "Register another email",
     "crossToProvider": "Also offer services? Join the provider waitlist",
     "crossToCustomer": "Also need services? Join the customer waitlist",
-    "preview": "Preview mode: nothing was sent."
+    "preview": "Demo mode: this form didn't send anything. On the live site, this step adds you to the waitlist."
   },
   "final": {
     "title": "Be there when Loqelo opens.",
