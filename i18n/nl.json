@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "language": "Dutch",
+    "nativeName": "Nederlands",
+    "dir": "ltr"
+  },
+  "meta": {
+    "title": "Loqelo – Alles wat jouw plek nodig heeft. Lancering februari 2027",
+    "description": "Loqelo verbindt mensen die diensten nodig hebben voor hun huis, tuin of kantoor met dienstverleners die het werk kunnen doen. Schrijf je in voor de wachtlijst voor de lancering in februari 2027."
+  },
+  "a11y": {
+    "skip": "Naar de inhoud",
+    "home": "Loqelo home",
+    "menuOpen": "Menu openen",
+    "menuClose": "Menu sluiten",
+    "language": "Taal"
+  },
+  "nav": {
+    "how": "Hoe het werkt",
+    "customers": "Voor klanten",
+    "providers": "Voor dienstverleners",
+    "join": "Op de wachtlijst"
+  },
+  "hero": {
+    "badge": "Lancering februari 2027",
+    "titleA": "Alles wat jouw plek",
+    "titleB": "nodig heeft.",
+    "lead": "Beschrijf in je eigen woorden wat je huis, tuin of kantoor nodig heeft. Loqelo koppelt je aanvraag aan dienstverleners die het werk kunnen doen, en jij kiest uit de offertes die ze sturen.",
+    "ctaPrimary": "Schrijf je in voor de wachtlijst",
+    "ctaSecondary": "Ontdek hoe het werkt",
+    "note": "Gratis inschrijven. Op elk moment uitschrijven.",
+    "demoLabel": "Wat heb je nodig?",
+    "demoFound": "Herkende diensten",
+    "demoOffers": "offertes ontvangen",
+    "photoAlt": "Twee schoonmakers die grote kantoorramen wassen",
+    "phoneAlt": "Mobiele app van Loqelo met offertes van drie dienstverleners, gesorteerd op beste match"
+  },
+  "demo": [
+    {
+      "parts": ["Ik wil ", { "h": "de heg laten snoeien", "c": "mint" }, " en ", { "h": "het gras laten maaien", "c": "blue" }, " voor zaterdag."],
+      "chips": [["Heg snoeien", "mint", "sprout"], ["Gazononderhoud", "blue", "leaf"]]
+    },
+    {
+      "parts": ["In de kantoorkeuken ", { "h": "lekt de kraan", "c": "blue" }, " en de ", { "h": "ramen moeten gewassen", "c": "mint" }, "."],
+      "chips": [["Loodgieter", "blue", "wrench"], ["Glazenwassen", "mint", "grid"]]
+    },
+    {
+      "parts": ["We ", { "h": "verhuizen naar een nieuw appartement", "c": "amber" }, " en de ", { "h": "auto moet gewassen", "c": "blue" }, "."],
+      "chips": [["Verhuizen", "amber", "boxtruck"], ["Autowassen", "blue", "car"]]
+    }
+  ],
+  "cats": {
+    "title": "Van een lekkende kraan tot een verhuizing.",
+    "lead": "Eén plek om hulp te vragen voor de diensten die je huis, tuin en kantoor nodig hebben.",
+    "home": "Huis",
+    "garden": "Tuin",
+    "construction": "Bouw",
+    "installations": "Installaties",
+    "pets": "Huisdieren",
+    "vehicles": "Voertuigen",
+    "personal": "Persoonlijke diensten",
+    "moving": "Verhuizen en transport"
+  },
+  "how": {
+    "title": "Van één zin naar de juiste vakman.",
+    "lead": "Drie stappen: van je vraag beschrijven tot kiezen wie het doet.",
+    "s1t": "Beschrijf wat je nodig hebt",
+    "s1d": "Vertel Loqelo in je eigen woorden wat je huis, tuin of kantoor nodig heeft. Voeg foto's toe als dat helpt. Loqelo herkent de diensten in je aanvraag.",
+    "s1alt": "Aanvraagformulier van Loqelo met een getypte vraag en de herkende diensten: schoonmaak, glazenwassen en autowassen",
+    "s2t": "Word gekoppeld",
+    "s2d": "Je aanvraag komt terecht bij dienstverleners die deze diensten in jouw omgeving aanbieden, zodat de juiste mensen hem zien en kunnen reageren.",
+    "s2alt": "Dienstverlenersweergave van Loqelo met een kaart van aanvragen in de buurt die bij hun diensten passen",
+    "s3t": "Vergelijk offertes en kies",
+    "s3d": "Offertes verschijnen naast elkaar met prijs, planning en beoordelingen. Stel vragen, vergelijk en kies de dienstverlener die bij je past.",
+    "s3alt": "Offertescherm van Loqelo dat vijf offertes vergelijkt met een grafiek van de prijsrange",
+    "stepLabel": "Stap"
+  },
+  "video": {
+    "title": "Zie Loqelo in actie.",
+    "lead": "Een korte film over hoe een aanvraag een afgerond klusje wordt.",
+    "play": "Speel de Loqelo-video af",
+    "duration": "1 min 21 s",
+    "posterAlt": "Een man die met een hogedrukreiniger de muur van een modern huis schoonspuit, met het onderschrift: Need someone to wash the walls?"
+  },
+  "aud": {
+    "custEyebrow": "Voor klanten",
+    "custTitle": "Hulp nodig? Beschrijf het één keer.",
+    "custLead": "Niet meer rondbellen. Schrijf op wat je nodig hebt en de offertes komen naar jou toe.",
+    "cust1": "Beschrijf de klus in je eigen woorden, typend of sprekend",
+    "cust2": "Ontvang offertes van dienstverleners die het kunnen doen",
+    "cust3": "Vergelijk prijs, planning en beoordelingen en kies dan",
+    "custCta": "Aanmelden als klant",
+    "custAlt": "Klantdashboard van Loqelo met actieve klussen, offertes en recente activiteit",
+    "provEyebrow": "Voor dienstverleners",
+    "provTitle": "Meer klussen nodig? Vind ze hier.",
+    "provLead": "Bekijk aanvragen van mensen in de buurt die de diensten nodig hebben die jij aanbiedt.",
+    "prov1": "Bekijk aanvragen die passen bij je diensten en werkgebied",
+    "prov2": "Stuur je offerte met prijs, startdatum en een korte toelichting",
+    "prov3": "Houd je offertes en geaccepteerde klussen bij in één dashboard",
+    "provCta": "Aanmelden als dienstverlener",
+    "provAlt": "Dienstverlenersdashboard van Loqelo met passende klussen op een kaart"
+  },
+  "launch": {
+    "kicker": "Lanceringsdatum",
+    "title": "Loqelo gaat open in februari 2027.",
+    "lead": "We maken het platform klaar voor klanten en dienstverleners. Schrijf je in voor de wachtlijst en we mailen je zodra Loqelo live gaat.",
+    "today": "Vandaag",
+    "launch": "Lancering",
+    "cta": "Schrijf je in voor de wachtlijst"
+  },
+  "form": {
+    "title": "Schrijf je in voor de Loqelo-wachtlijst.",
+    "lead": "Laat je e-mailadres achter en we laten je weten wanneer Loqelo live gaat. Het duurt nog geen minuut.",
+    "point1": "Eén e-mail wanneer Loqelo live gaat",
+    "point2": "Af en toe een update over het project tot dan",
+    "point3": "Met één klik uitschrijven, op elk moment",
+    "tabsLabel": "Ik meld me aan als",
+    "tabCustomer": "Klant",
+    "tabProvider": "Dienstverlener",
+    "tabCustomerSub": "Ik heb diensten nodig",
+    "tabProviderSub": "Ik bied diensten aan",
+    "email": "E-mailadres",
+    "emailPh": "jij@voorbeeld.nl",
+    "countryCustomer": "Land waar je woont",
+    "countryProvider": "Land waar je diensten aanbiedt",
+    "countryPh": "Begin met het typen van een land",
+    "countryEmpty": "Geen land gevonden",
+    "suggested": "Voorgesteld",
+    "accountType": "Type account",
+    "optional": "optioneel",
+    "individual": "Particulier",
+    "business": "Zakelijk",
+    "consent": "Ik ga akkoord met het ontvangen van e-mails van Loqelo over de lancering en projectupdates. Ik kan me op elk moment uitschrijven. Lees het <a href=\"privacy.html\">privacybeleid</a>.",
+    "submitCustomer": "Aanmelden als klant",
+    "submitProvider": "Aanmelden als dienstverlener",
+    "submitting": "Bezig met aanmelden…",
+    "required": "Verplicht",
+    "privacyNote": "We gebruiken je e-mailadres alleen voor updates over Loqelo. We verkopen het nooit.",
+    "errEmail": "Vul je e-mailadres in.",
+    "errEmailFormat": "Vul een geldig e-mailadres in, zoals naam@voorbeeld.nl.",
+    "errCountry": "Kies een land uit de lijst.",
+    "errConsent": "Vink het vakje aan om e-mails van Loqelo te ontvangen. Zonder je toestemming kunnen we je niet aan de wachtlijst toevoegen.",
+    "errNetwork": "We konden de server niet bereiken. Controleer je verbinding en probeer het opnieuw.",
+    "errServer": "De wachtlijst heeft de aanmelding niet geaccepteerd. Probeer het over een minuut opnieuw.",
+    "errRate": "Te veel pogingen vanaf deze verbinding. Wacht een paar minuten en probeer het opnieuw.",
+    "errSpam": "De beveiligingscontrole is mislukt. Laad de pagina opnieuw en probeer het nog eens.",
+    "errSummary": "Controleer de gemarkeerde velden.",
+    "dupTitle": "Je staat al op de lijst.",
+    "dupCustomer": "Dit e-mailadres staat al op de wachtlijst voor klanten. Je hoeft verder niets te doen.",
+    "dupProvider": "Dit e-mailadres staat al op de wachtlijst voor dienstverleners. Je hoeft verder niets te doen.",
+    "okCustomerTitle": "Je staat op de lijst!",
+    "okCustomer": "We houden je op de hoogte terwijl Loqelo zich klaarmaakt voor de lancering.",
+    "okProviderTitle": "Bedankt voor je interesse in Loqelo!",
+    "okProvider": "We houden je op de hoogte naarmate de lancering dichterbij komt.",
+    "okConfirmTitle": "Check je inbox.",
+    "okConfirm": "We hebben een bevestigingslink naar je e-mailadres gestuurd. Open de link om je aanmelding af te ronden.",
+    "again": "Nog een e-mailadres aanmelden",
+    "crossToProvider": "Bied je ook diensten aan? Meld je aan voor de dienstverlenerslijst",
+    "crossToCustomer": "Heb je ook diensten nodig? Meld je aan voor de klantenlijst",
+    "preview": "Voorbeeldmodus: er is niets verstuurd."
+  },
+  "final": {
+    "title": "Wees erbij als Loqelo opengaat.",
+    "lead": "Alles wat jouw plek nodig heeft, vanaf februari 2027.",
+    "cust": "Aanmelden als klant",
+    "prov": "Aanmelden als dienstverlener"
+  },
+  "footer": {
+    "tagline": "Alles wat jouw plek nodig heeft.",
+    "privacy": "Privacybeleid",
+    "cookies": "Cookievoorkeuren",
+    "rights": "Alle rechten voorbehouden."
+  },
+  "cookie": {
+    "title": "Cookies en statistieken",
+    "text": "Met je toestemming gebruiken we cookies van Google Analytics om bezoeken te tellen en te zien uit welke landen bezoekers komen. Wat je in onze formulieren invult, delen we nooit.",
+    "accept": "Statistieken accepteren",
+    "reject": "Weigeren",
+    "more": "Privacybeleid"
+  }
+}

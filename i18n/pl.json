@@ -1,0 +1,181 @@
+{
+  "_meta": {
+    "language": "Polish",
+    "nativeName": "Polski",
+    "dir": "ltr"
+  },
+  "meta": {
+    "title": "Loqelo – Wszystko, czego potrzebuje Twoje miejsce. Start w lutym 2027",
+    "description": "Loqelo łączy osoby, które potrzebują usług dla domu, ogrodu lub biura, z wykonawcami, którzy mogą je zrealizować. Zapisz się na listę oczekujących przed startem w lutym 2027."
+  },
+  "a11y": {
+    "skip": "Przejdź do treści",
+    "home": "Strona główna Loqelo",
+    "menuOpen": "Otwórz menu",
+    "menuClose": "Zamknij menu",
+    "language": "Język"
+  },
+  "nav": {
+    "how": "Jak to działa",
+    "customers": "Dla klientów",
+    "providers": "Dla wykonawców",
+    "join": "Zapisz się"
+  },
+  "hero": {
+    "badge": "Start w lutym 2027",
+    "titleA": "Wszystko, czego potrzebuje",
+    "titleB": "Twoje miejsce.",
+    "lead": "Opisz własnymi słowami, czego potrzebuje Twój dom, ogród lub biuro. Loqelo dopasuje Twoje zlecenie do wykonawców, którzy mogą je zrealizować, a Ty wybierzesz spośród przesłanych ofert.",
+    "ctaPrimary": "Zapisz się na listę",
+    "ctaSecondary": "Zobacz, jak to działa",
+    "note": "Zapis jest bezpłatny. Możesz zrezygnować w każdej chwili.",
+    "demoLabel": "Czego potrzebujesz?",
+    "demoFound": "Rozpoznane usługi",
+    "demoOffers": "otrzymane oferty",
+    "photoAlt": "Dwie osoby myjące duże okna w biurze",
+    "phoneAlt": "Aplikacja mobilna Loqelo z ofertami trzech wykonawców posortowanymi według najlepszego dopasowania"
+  },
+  "demo": [
+    {
+      "parts": ["Potrzebuję ", { "h": "przyciąć żywopłot", "c": "mint" }, " i ", { "h": "skosić trawnik", "c": "blue" }, " przed sobotą."],
+      "chips": [["Przycinanie żywopłotu", "mint", "sprout"], ["Pielęgnacja trawnika", "blue", "leaf"]]
+    },
+    {
+      "parts": ["W biurowej kuchni ", { "h": "cieknie kran", "c": "blue" }, ", a ", { "h": "okna trzeba umyć", "c": "mint" }, "."],
+      "chips": [["Hydraulika", "blue", "wrench"], ["Mycie okien", "mint", "grid"]]
+    },
+    {
+      "parts": ["Za tydzień ", { "h": "przeprowadzamy się", "c": "amber" }, " i chcemy ", { "h": "umyć samochód", "c": "blue" }, "."],
+      "chips": [["Przeprowadzki", "amber", "boxtruck"], ["Mycie samochodu", "blue", "car"]]
+    }
+  ],
+  "cats": {
+    "title": "Od cieknącego kranu po przeprowadzkę.",
+    "lead": "Jedno miejsce, w którym poprosisz o pomoc przy usługach dla domu, ogrodu i biura.",
+    "home": "Dom",
+    "garden": "Ogród",
+    "construction": "Budowa",
+    "installations": "Instalacje",
+    "pets": "Zwierzęta",
+    "vehicles": "Pojazdy",
+    "personal": "Usługi osobiste",
+    "moving": "Przeprowadzki i transport"
+  },
+  "how": {
+    "title": "Od jednego zdania do właściwego wykonawcy.",
+    "lead": "Trzy kroki: od opisania potrzeby do wyboru wykonawcy.",
+    "s1t": "Opisz, czego potrzebujesz",
+    "s1d": "Napisz własnymi słowami, czego potrzebuje Twój dom, ogród lub biuro. Dodaj zdjęcia, jeśli pomogą. Loqelo rozpozna usługi w Twoim zleceniu.",
+    "s1alt": "Formularz zlecenia Loqelo z wpisanym opisem i rozpoznanymi usługami: sprzątanie, mycie okien i mycie samochodu",
+    "s2t": "Otrzymaj dopasowanie",
+    "s2d": "Twoje zlecenie trafia do wykonawców, którzy oferują te usługi w Twojej okolicy, więc właściwe osoby mogą je zobaczyć i odpowiedzieć.",
+    "s2alt": "Widok wykonawcy w Loqelo z mapą pobliskich zleceń pasujących do jego usług",
+    "s3t": "Porównaj oferty i wybierz",
+    "s3d": "Oferty pojawiają się obok siebie z ceną, terminem i opiniami. Zadawaj pytania, porównuj i wybierz wykonawcę, który Ci odpowiada.",
+    "s3alt": "Ekran ofert Loqelo porównujący pięć ofert z wykresem zakresu cen",
+    "stepLabel": "Krok"
+  },
+  "video": {
+    "title": "Zobacz Loqelo w akcji.",
+    "lead": "Krótki film o tym, jak zlecenie zamienia się w wykonaną pracę.",
+    "play": "Odtwórz film o Loqelo",
+    "duration": "1 min 21 s",
+    "posterAlt": "Mężczyzna myjący ścianę nowoczesnego domu myjką ciśnieniową, z podpisem: Need someone to wash the walls?"
+  },
+  "aud": {
+    "custEyebrow": "Dla klientów",
+    "custTitle": "Potrzebujesz pomocy? Opisz to raz.",
+    "custLead": "Koniec z obdzwanianiem firm. Napisz, czego potrzebujesz, a oferty przyjdą do Ciebie.",
+    "cust1": "Opisz zlecenie własnymi słowami, pisząc lub mówiąc",
+    "cust2": "Otrzymuj oferty od wykonawców, którzy mogą je zrealizować",
+    "cust3": "Porównaj cenę, termin i opinie, a potem wybierz",
+    "custCta": "Dołącz jako klient",
+    "custAlt": "Panel klienta Loqelo z listą aktywnych zleceń, ofertami i ostatnią aktywnością",
+    "provEyebrow": "Dla wykonawców",
+    "provTitle": "Szukasz zleceń? Znajdziesz je tutaj.",
+    "provLead": "Przeglądaj zlecenia od osób w okolicy, które potrzebują Twoich usług.",
+    "prov1": "Przeglądaj zlecenia pasujące do Twoich usług i obszaru działania",
+    "prov2": "Wyślij ofertę z ceną, terminem rozpoczęcia i krótką notatką",
+    "prov3": "Śledź swoje oferty i przyjęte zlecenia w jednym panelu",
+    "provCta": "Dołącz jako wykonawca",
+    "provAlt": "Panel wykonawcy Loqelo z pasującymi zleceniami na mapie"
+  },
+  "launch": {
+    "kicker": "Data startu",
+    "title": "Loqelo startuje w lutym 2027.",
+    "lead": "Przygotowujemy platformę dla klientów i wykonawców. Zapisz się na listę oczekujących, a powiadomimy Cię e-mailem, gdy Loqelo wystartuje.",
+    "today": "Dziś",
+    "launch": "Start",
+    "cta": "Zapisz się na listę"
+  },
+  "form": {
+    "title": "Zapisz się na listę oczekujących Loqelo.",
+    "lead": "Zostaw swój e-mail, a damy Ci znać, gdy Loqelo wystartuje. Zajmie to mniej niż minutę.",
+    "point1": "Jeden e-mail w dniu startu Loqelo",
+    "point2": "Okazjonalne informacje o projekcie do tego czasu",
+    "point3": "Rezygnacja jednym kliknięciem, w każdej chwili",
+    "tabsLabel": "Dołączam jako",
+    "tabCustomer": "Klient",
+    "tabProvider": "Wykonawca",
+    "tabCustomerSub": "Potrzebuję usług",
+    "tabProviderSub": "Oferuję usługi",
+    "email": "Adres e-mail",
+    "emailPh": "ty@przyklad.pl",
+    "countryCustomer": "Kraj zamieszkania",
+    "countryProvider": "Kraj, w którym świadczysz usługi",
+    "countryPh": "Zacznij wpisywać nazwę kraju",
+    "countryEmpty": "Brak pasującego kraju",
+    "suggested": "Sugerowany",
+    "accountType": "Rodzaj konta",
+    "optional": "opcjonalnie",
+    "individual": "Osoba prywatna",
+    "business": "Firma",
+    "consent": "Wyrażam zgodę na otrzymywanie od Loqelo wiadomości e-mail o starcie i aktualnościach projektu. Mogę zrezygnować w każdej chwili. Przeczytaj <a href=\"privacy.html\">Politykę prywatności</a>.",
+    "submitCustomer": "Dołącz jako klient",
+    "submitProvider": "Dołącz jako wykonawca",
+    "submitting": "Zapisywanie…",
+    "required": "Wymagane",
+    "privacyNote": "Twój e-mail wykorzystamy tylko do wysyłania informacji o Loqelo. Nigdy go nie sprzedamy.",
+    "errEmail": "Wpisz swój adres e-mail.",
+    "errEmailFormat": "Wpisz poprawny adres e-mail, np. imie@przyklad.pl.",
+    "errCountry": "Wybierz kraj z listy.",
+    "errConsent": "Zaznacz pole zgody na wiadomości e-mail od Loqelo. Bez Twojej zgody nie możemy dodać Cię do listy.",
+    "errNetwork": "Nie udało się połączyć z serwerem. Sprawdź połączenie i spróbuj ponownie.",
+    "errServer": "Lista oczekujących nie przyjęła zgłoszenia. Spróbuj ponownie za minutę.",
+    "errRate": "Zbyt wiele prób z tego połączenia. Odczekaj kilka minut i spróbuj ponownie.",
+    "errSpam": "Weryfikacja bezpieczeństwa się nie powiodła. Odśwież stronę i spróbuj ponownie.",
+    "errSummary": "Sprawdź zaznaczone pola.",
+    "dupTitle": "Już jesteś na liście.",
+    "dupCustomer": "Ten adres e-mail jest już na liście oczekujących klientów. Nie musisz nic więcej robić.",
+    "dupProvider": "Ten adres e-mail jest już na liście oczekujących wykonawców. Nie musisz nic więcej robić.",
+    "okCustomerTitle": "Jesteś na liście!",
+    "okCustomer": "Będziemy Cię informować, jak przebiegają przygotowania do startu Loqelo.",
+    "okProviderTitle": "Dziękujemy za zainteresowanie Loqelo!",
+    "okProvider": "Będziemy Cię informować w miarę zbliżania się startu.",
+    "okConfirmTitle": "Sprawdź skrzynkę.",
+    "okConfirm": "Wysłaliśmy link potwierdzający na Twój adres e-mail. Kliknij go, aby dokończyć zapis na listę.",
+    "again": "Zapisz inny adres e-mail",
+    "crossToProvider": "Oferujesz też usługi? Dołącz do listy wykonawców",
+    "crossToCustomer": "Potrzebujesz też usług? Dołącz do listy klientów",
+    "preview": "Tryb podglądu: nic nie zostało wysłane."
+  },
+  "final": {
+    "title": "Bądź z nami od pierwszego dnia.",
+    "lead": "Wszystko, czego potrzebuje Twoje miejsce, od lutego 2027.",
+    "cust": "Dołącz jako klient",
+    "prov": "Dołącz jako wykonawca"
+  },
+  "footer": {
+    "tagline": "Wszystko, czego potrzebuje Twoje miejsce.",
+    "privacy": "Polityka prywatności",
+    "cookies": "Ustawienia cookies",
+    "rights": "Wszelkie prawa zastrzeżone."
+  },
+  "cookie": {
+    "title": "Pliki cookie i analityka",
+    "text": "Za Twoją zgodą używamy plików cookie Google Analytics, aby liczyć odwiedziny i sprawdzać, z jakich krajów pochodzą odwiedzający. Nigdy nie udostępniamy tego, co wpisujesz w formularzach.",
+    "accept": "Akceptuję analitykę",
+    "reject": "Odrzuć",
+    "more": "Polityka prywatności"
+  }
+}
