@@ -38,7 +38,7 @@
 .v3 .mnav__in>a:not(.btn){color:#fff;border-color:rgba(255,255,255,.12)}
 
 /* ---------- Hero: teal block ---------- */
-.v3hero.hero{margin-top:0;padding:clamp(40px,6vw,88px) 0 clamp(96px,10vw,140px);background:radial-gradient(900px 600px at 80% 20%,#0A939E,transparent 65%),var(--block);color:#fff}
+.v3hero.hero{margin-top:0;padding:clamp(40px,6vw,88px) 0 clamp(110px,12vw,170px);background:radial-gradient(900px 600px at 80% 20%,#0A939E,transparent 65%),var(--block);color:#fff}
 .v3hero .badge{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.22);color:#fff;box-shadow:none}
 .v3hero .hero__title{color:#fff}
 .v3hero .hero__accent{color:var(--mint)}
@@ -100,7 +100,7 @@
 @keyframes twinkle{50%{transform:scale(.7) rotate(45deg)}}
 
 /* ---------- How it works: teal block ---------- */
-.v3how{position:relative;padding:calc(var(--sec) * .9) 0 calc(var(--sec) * 1.1);background:var(--block);color:#fff}
+.v3how{position:relative;padding:calc(var(--sec) * .9) 0 calc(var(--sec) + 120px);background:var(--block);color:#fff}
 .v3how::before,.v3how::after{content:"";position:absolute;left:0;right:0;height:var(--sc);background-size:calc(var(--sc) * 2) var(--sc);background-repeat:repeat-x}
 .v3how::before{top:calc(var(--sc) * -1 + 1px);background-image:radial-gradient(circle at var(--sc) var(--sc),var(--block) calc(var(--sc) - 1px),transparent var(--sc))}
 .v3how::after{bottom:calc(var(--sc) * -1 + 1px);background-image:radial-gradient(circle at var(--sc) 0,var(--block) calc(var(--sc) - 1px),transparent var(--sc))}
@@ -116,7 +116,7 @@
 .v3step__shot img{width:100%;height:100%;object-fit:cover;object-position:left top}
 
 /* ---------- Film ---------- */
-.v3film{padding:calc(var(--sec) * 1.2) 0 var(--sec)}
+.v3film{padding:calc(var(--sec) * .6) 0 var(--sec)}
 .v3film .player{border:6px solid #fff;box-shadow:var(--sh-3)}
 
 /* ---------- Launch ---------- */
@@ -175,21 +175,23 @@
   .v3 .rv{opacity:1;transform:none}
 }
 
-/* ---------- Bubble edges (replace the even scallops) ---------- */
+/* ---------- Foam edges: soft domes of different sizes with loose bubbles above ---------- */
 .scallop,.v3how::before,.v3how::after{display:none}
-.bubbles{position:absolute;left:0;right:0;height:96px;pointer-events:none;z-index:2;color:var(--bc,var(--block))}
-.bubbles::before,.bubbles__float{content:"";position:absolute;inset:0;background:currentColor;-webkit-mask-repeat:repeat-x;mask-repeat:repeat-x;-webkit-mask-position:var(--bx,0px) bottom;mask-position:var(--bx,0px) bottom;-webkit-mask-size:600px 96px;mask-size:600px 96px}
-.bubbles::before{-webkit-mask-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20600%2096%22%3E%3Crect%20x%3D%220%22%20y%3D%2288%22%20width%3D%22600%22%20height%3D%228%22/%3E%3Ccircle%20cx%3D%2218%22%20cy%3D%2280%22%20r%3D%2228%22/%3E%3Ccircle%20cx%3D%2264%22%20cy%3D%2266%22%20r%3D%2238%22/%3E%3Ccircle%20cx%3D%22112%22%20cy%3D%2282%22%20r%3D%2222%22/%3E%3Ccircle%20cx%3D%22150%22%20cy%3D%2268%22%20r%3D%2232%22/%3E%3Ccircle%20cx%3D%22194%22%20cy%3D%2280%22%20r%3D%2224%22/%3E%3Ccircle%20cx%3D%22240%22%20cy%3D%2258%22%20r%3D%2244%22/%3E%3Ccircle%20cx%3D%22290%22%20cy%3D%2282%22%20r%3D%2222%22/%3E%3Ccircle%20cx%3D%22330%22%20cy%3D%2270%22%20r%3D%2232%22/%3E%3Ccircle%20cx%3D%22372%22%20cy%3D%2284%22%20r%3D%2218%22/%3E%3Ccircle%20cx%3D%22410%22%20cy%3D%2262%22%20r%3D%2240%22/%3E%3Ccircle%20cx%3D%22458%22%20cy%3D%2280%22%20r%3D%2226%22/%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%2266%22%20r%3D%2236%22/%3E%3Ccircle%20cx%3D%22548%22%20cy%3D%2282%22%20r%3D%2222%22/%3E%3Ccircle%20cx%3D%22586%22%20cy%3D%2274%22%20r%3D%2228%22/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20600%2096%22%3E%3Crect%20x%3D%220%22%20y%3D%2288%22%20width%3D%22600%22%20height%3D%228%22/%3E%3Ccircle%20cx%3D%2218%22%20cy%3D%2280%22%20r%3D%2228%22/%3E%3Ccircle%20cx%3D%2264%22%20cy%3D%2266%22%20r%3D%2238%22/%3E%3Ccircle%20cx%3D%22112%22%20cy%3D%2282%22%20r%3D%2222%22/%3E%3Ccircle%20cx%3D%22150%22%20cy%3D%2268%22%20r%3D%2232%22/%3E%3Ccircle%20cx%3D%22194%22%20cy%3D%2280%22%20r%3D%2224%22/%3E%3Ccircle%20cx%3D%22240%22%20cy%3D%2258%22%20r%3D%2244%22/%3E%3Ccircle%20cx%3D%22290%22%20cy%3D%2282%22%20r%3D%2222%22/%3E%3Ccircle%20cx%3D%22330%22%20cy%3D%2270%22%20r%3D%2232%22/%3E%3Ccircle%20cx%3D%22372%22%20cy%3D%2284%22%20r%3D%2218%22/%3E%3Ccircle%20cx%3D%22410%22%20cy%3D%2262%22%20r%3D%2240%22/%3E%3Ccircle%20cx%3D%22458%22%20cy%3D%2280%22%20r%3D%2226%22/%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%2266%22%20r%3D%2236%22/%3E%3Ccircle%20cx%3D%22548%22%20cy%3D%2282%22%20r%3D%2222%22/%3E%3Ccircle%20cx%3D%22586%22%20cy%3D%2274%22%20r%3D%2228%22/%3E%3C/svg%3E")}
-.bubbles__float{-webkit-mask-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20600%2096%22%3E%3Ccircle%20cx%3D%2296%22%20cy%3D%2226%22%20r%3D%227%22/%3E%3Ccircle%20cx%3D%22182%22%20cy%3D%2238%22%20r%3D%224%22/%3E%3Ccircle%20cx%3D%22270%22%20cy%3D%2212%22%20r%3D%229%22/%3E%3Ccircle%20cx%3D%22352%22%20cy%3D%2230%22%20r%3D%225%22/%3E%3Ccircle%20cx%3D%22440%22%20cy%3D%2220%22%20r%3D%227%22/%3E%3Ccircle%20cx%3D%22530%22%20cy%3D%2234%22%20r%3D%225%22/%3E%3Ccircle%20cx%3D%2236%22%20cy%3D%2240%22%20r%3D%224%22/%3E%3Ccircle%20cx%3D%22566%22%20cy%3D%2210%22%20r%3D%226%22/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20600%2096%22%3E%3Ccircle%20cx%3D%2296%22%20cy%3D%2226%22%20r%3D%227%22/%3E%3Ccircle%20cx%3D%22182%22%20cy%3D%2238%22%20r%3D%224%22/%3E%3Ccircle%20cx%3D%22270%22%20cy%3D%2212%22%20r%3D%229%22/%3E%3Ccircle%20cx%3D%22352%22%20cy%3D%2230%22%20r%3D%225%22/%3E%3Ccircle%20cx%3D%22440%22%20cy%3D%2220%22%20r%3D%227%22/%3E%3Ccircle%20cx%3D%22530%22%20cy%3D%2234%22%20r%3D%225%22/%3E%3Ccircle%20cx%3D%2236%22%20cy%3D%2240%22%20r%3D%224%22/%3E%3Ccircle%20cx%3D%22566%22%20cy%3D%2210%22%20r%3D%226%22/%3E%3C/svg%3E");animation:bubbleFloat 5.5s ease-in-out infinite alternate}
-.bubbles__float--b{-webkit-mask-position:calc(var(--bx,0px) + 300px) bottom;mask-position:calc(var(--bx,0px) + 300px) bottom;opacity:.55;transform:scale(.8);transform-origin:bottom;animation-duration:7s;animation-delay:-2s}
-@keyframes bubbleFloat{from{translate:0 8px}to{translate:0 -8px}}
+.bubbles{position:absolute;left:0;right:0;height:140px;pointer-events:none;z-index:2;color:var(--bc,var(--block))}
+.bubbles::before,.bubbles__float{content:"";position:absolute;inset:0;background:currentColor;-webkit-mask-repeat:repeat-x;mask-repeat:repeat-x;-webkit-mask-position:var(--bx,0px) bottom;mask-position:var(--bx,0px) bottom;-webkit-mask-size:800px 140px;mask-size:800px 140px}
+.bubbles::before{-webkit-mask-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20800%20140%22%3E%3Crect%20x%3D%220%22%20y%3D%22130%22%20width%3D%22800%22%20height%3D%2210%22/%3E%3Ccircle%20cx%3D%22-30%22%20cy%3D%22112%22%20r%3D%2238%22/%3E%3Ccircle%20cx%3D%2240%22%20cy%3D%22118%22%20r%3D%2240%22/%3E%3Ccircle%20cx%3D%22105%22%20cy%3D%2296%22%20r%3D%2252%22/%3E%3Ccircle%20cx%3D%22170%22%20cy%3D%22118%22%20r%3D%2230%22/%3E%3Ccircle%20cx%3D%22222%22%20cy%3D%2290%22%20r%3D%2258%22/%3E%3Ccircle%20cx%3D%22290%22%20cy%3D%22112%22%20r%3D%2236%22/%3E%3Ccircle%20cx%3D%22345%22%20cy%3D%22100%22%20r%3D%2246%22/%3E%3Ccircle%20cx%3D%22402%22%20cy%3D%22120%22%20r%3D%2226%22/%3E%3Ccircle%20cx%3D%22452%22%20cy%3D%2282%22%20r%3D%2266%22/%3E%3Ccircle%20cx%3D%22530%22%20cy%3D%22110%22%20r%3D%2240%22/%3E%3Ccircle%20cx%3D%22590%22%20cy%3D%2296%22%20r%3D%2248%22/%3E%3Ccircle%20cx%3D%22650%22%20cy%3D%22116%22%20r%3D%2230%22/%3E%3Ccircle%20cx%3D%22706%22%20cy%3D%2292%22%20r%3D%2254%22/%3E%3Ccircle%20cx%3D%22770%22%20cy%3D%22112%22%20r%3D%2238%22/%3E%3Ccircle%20cx%3D%22840%22%20cy%3D%22118%22%20r%3D%2240%22/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20800%20140%22%3E%3Crect%20x%3D%220%22%20y%3D%22130%22%20width%3D%22800%22%20height%3D%2210%22/%3E%3Ccircle%20cx%3D%22-30%22%20cy%3D%22112%22%20r%3D%2238%22/%3E%3Ccircle%20cx%3D%2240%22%20cy%3D%22118%22%20r%3D%2240%22/%3E%3Ccircle%20cx%3D%22105%22%20cy%3D%2296%22%20r%3D%2252%22/%3E%3Ccircle%20cx%3D%22170%22%20cy%3D%22118%22%20r%3D%2230%22/%3E%3Ccircle%20cx%3D%22222%22%20cy%3D%2290%22%20r%3D%2258%22/%3E%3Ccircle%20cx%3D%22290%22%20cy%3D%22112%22%20r%3D%2236%22/%3E%3Ccircle%20cx%3D%22345%22%20cy%3D%22100%22%20r%3D%2246%22/%3E%3Ccircle%20cx%3D%22402%22%20cy%3D%22120%22%20r%3D%2226%22/%3E%3Ccircle%20cx%3D%22452%22%20cy%3D%2282%22%20r%3D%2266%22/%3E%3Ccircle%20cx%3D%22530%22%20cy%3D%22110%22%20r%3D%2240%22/%3E%3Ccircle%20cx%3D%22590%22%20cy%3D%2296%22%20r%3D%2248%22/%3E%3Ccircle%20cx%3D%22650%22%20cy%3D%22116%22%20r%3D%2230%22/%3E%3Ccircle%20cx%3D%22706%22%20cy%3D%2292%22%20r%3D%2254%22/%3E%3Ccircle%20cx%3D%22770%22%20cy%3D%22112%22%20r%3D%2238%22/%3E%3Ccircle%20cx%3D%22840%22%20cy%3D%22118%22%20r%3D%2240%22/%3E%3C/svg%3E")}
+.bubbles__float{-webkit-mask-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20800%20140%22%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%2244%22%20r%3D%229%22/%3E%3Ccircle%20cx%3D%22160%22%20cy%3D%2262%22%20r%3D%225%22/%3E%3Ccircle%20cx%3D%22300%22%20cy%3D%2234%22%20r%3D%2212%22/%3E%3Ccircle%20cx%3D%22380%22%20cy%3D%2258%22%20r%3D%226%22/%3E%3Ccircle%20cx%3D%22520%22%20cy%3D%2230%22%20r%3D%2210%22/%3E%3Ccircle%20cx%3D%22612%22%20cy%3D%2250%22%20r%3D%227%22/%3E%3Ccircle%20cx%3D%22690%22%20cy%3D%2222%22%20r%3D%2214%22/%3E%3Ccircle%20cx%3D%22762%22%20cy%3D%2254%22%20r%3D%226%22/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20800%20140%22%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%2244%22%20r%3D%229%22/%3E%3Ccircle%20cx%3D%22160%22%20cy%3D%2262%22%20r%3D%225%22/%3E%3Ccircle%20cx%3D%22300%22%20cy%3D%2234%22%20r%3D%2212%22/%3E%3Ccircle%20cx%3D%22380%22%20cy%3D%2258%22%20r%3D%226%22/%3E%3Ccircle%20cx%3D%22520%22%20cy%3D%2230%22%20r%3D%2210%22/%3E%3Ccircle%20cx%3D%22612%22%20cy%3D%2250%22%20r%3D%227%22/%3E%3Ccircle%20cx%3D%22690%22%20cy%3D%2222%22%20r%3D%2214%22/%3E%3Ccircle%20cx%3D%22762%22%20cy%3D%2254%22%20r%3D%226%22/%3E%3C/svg%3E");animation:bubbleFloat 6s ease-in-out infinite alternate}
+.bubbles__float--b{-webkit-mask-position:calc(var(--bx,0px) + 400px) bottom;mask-position:calc(var(--bx,0px) + 400px) bottom;opacity:.7;scale:.75;transform-origin:bottom;animation-duration:7.5s;animation-delay:-3s}
+@keyframes bubbleFloat{from{translate:0 6px}to{translate:0 -10px}}
 .bubbles--rise{bottom:-1px}
-.bubbles--top{top:-95px;--bx:-210px}
-.v3final .bubbles--top{--bx:-390px}
-.bubbles--bottom{bottom:-95px;transform:scaleY(-1);--bx:-120px}
+.bubbles--top{top:-139px;--bx:-260px}
+.v3final .bubbles--top{--bx:-520px}
+.v3how .bubbles--rise{--bx:-140px}
+.v3final.final{margin-top:140px}
 @media (max-width:640px){
-  .bubbles{height:68px}
-  .bubbles--top{top:-67px}.bubbles--bottom{bottom:-67px}
-  .bubbles::before,.bubbles__float{-webkit-mask-size:425px 68px;mask-size:425px 68px}
+  .bubbles{height:84px}
+  .bubbles--top{top:-83px}
+  .v3final.final{margin-top:84px}
+  .bubbles::before,.bubbles__float{-webkit-mask-size:480px 84px;mask-size:480px 84px}
 }
 @media (prefers-reduced-motion:reduce){.bubbles__float{animation:none}}
