@@ -730,8 +730,51 @@
      ===================================================== */
   var heroTitle = $(".hero__title");
   if (heroTitle && !reduceMotion) heroTitle.classList.add("is-pending");
+  // Typewriter variant (used on version 2): the heading types itself once on load.
+  var typeTimer = null;
+  function typeTitle(animate) {
+    clearTimeout(typeTimer);
+    var full = $$("[data-i18n]", heroTitle).map(function (el) { return el.textContent; }).join(" ").replace(/\s+/g, " ").trim();
+    var chars = [];
+    $$("[data-i18n]", heroTitle).forEach(function (el) {
+      var text = el.textContent; el.innerHTML = "";
+      text.split(/(\s+)/).forEach(function (w) {
+        if (!w) return;
+        if (/^\s+$/.test(w)) { el.appendChild(document.createTextNode(" ")); return; }
+        var word = document.createElement("span"); word.className = "tw";
+        w.split("").forEach(function (c) { var ch = document.createElement("span"); ch.className = "ch"; ch.textContent = c; word.appendChild(ch); chars.push(ch); });
+        el.appendChild(word);
+      });
+      el.setAttribute("aria-hidden", "true");
+    });
+    var sr = $(".hero__sr", heroTitle);
+    if (!sr) { sr = document.createElement("span"); sr.className = "vh hero__sr"; heroTitle.insertBefore(sr, heroTitle.firstChild); }
+    sr.textContent = full;
+    var caret = $(".tcaret", heroTitle) || document.createElement("span");
+    caret.className = "tcaret"; caret.setAttribute("aria-hidden", "true");
+    heroTitle.classList.remove("is-pending", "is-typed");
+    if (!animate || reduceMotion) {
+      chars.forEach(function (c) { c.classList.add("on"); });
+      caret.remove(); heroTitle.classList.add("is-typed"); return;
+    }
+    var i = 0;
+    chars[0].parentNode.insertBefore(caret, chars[0]);
+    (function next() {
+      if (i >= chars.length) {
+        heroTitle.classList.add("is-typed");
+        typeTimer = setTimeout(function () { caret.classList.add("is-done"); }, 1600);
+        return;
+      }
+      var c = chars[i++]; c.classList.add("on");
+      c.parentNode.insertBefore(caret, c.nextSibling);
+      var pause = /[.,]/.test(c.textContent) ? 260 : (c.nextSibling === caret && !caret.nextSibling ? 140 : 0);
+      typeTimer = setTimeout(next, 55 + Math.random() * 45 + pause);
+    })();
+  }
+
   function splitTitle(animate) {
     if (!heroTitle) return;
+    if (heroTitle.hasAttribute("data-typewriter")) { typeTitle(animate); return; }
     var i = 0;
     $$("[data-i18n]", heroTitle).forEach(function (el) {
       var words = el.textContent.split(/(\s+)/);

@@ -207,3 +207,14 @@
   .v2strip__track{transition:none}
 }
 @media (min-width:1024px){.v2 .hdr__logo img{width:112px}.v2 .hdr__nav a{padding:8px 10px}}
+
+/* ---------- Typewriter headline ---------- */
+.hero__title[data-typewriter] .tw{display:inline-block;white-space:nowrap}
+.hero__title[data-typewriter] .ch{opacity:0}
+.hero__title[data-typewriter] .ch.on{opacity:1}
+.hero__title[data-typewriter] .swash path{animation:none}
+.hero__title[data-typewriter].is-typed .swash path{animation:draw 1s .15s var(--ease) forwards}
+.tcaret{display:inline-block;width:.06em;min-width:3px;height:.82em;margin:0 .02em 0 .03em;vertical-align:-.04em;border-radius:2px;background:var(--teal);animation:blink 1s steps(1) infinite}
+.tcaret.is-done{animation:fadeCaret .5s forwards}
+@keyframes fadeCaret{to{opacity:0}}
+@media (prefers-reduced-motion:reduce){.hero__title[data-typewriter] .ch{opacity:1}.tcaret{display:none}.hero__title[data-typewriter] .swash path{stroke-dashoffset:0}}
