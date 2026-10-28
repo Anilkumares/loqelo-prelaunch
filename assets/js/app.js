@@ -4,7 +4,7 @@
 
   var CFG = Object.assign({
     ga4Id: "", turnstileSiteKey: "", endpoint: "api/subscribe.php", previewMode: false,
-    languages: ["en", "pl", "nl"], defaultLanguage: "en", launch: { year: 2027, month: 2 }
+    languages: ["en", "pl", "nl"], defaultLanguage: "en", launch: { year: 2027, month: 2 }, base: ""
   }, window.LOQELO_CONFIG || {});
 
   var root = document.documentElement;
@@ -73,7 +73,7 @@
   var cache = {};
   function fetchLang(l) {
     if (cache[l]) return Promise.resolve(cache[l]);
-    return fetch("i18n/" + l + ".json", { cache: "no-cache" }).then(function (r) {
+    return fetch(CFG.base + "i18n/" + l + ".json", { cache: "no-cache" }).then(function (r) {
       if (!r.ok) throw new Error("i18n " + r.status);
       return r.json();
     }).then(function (j) { cache[l] = j; return j; });
@@ -104,6 +104,7 @@
     root.dir = (dict._meta && dict._meta.dir) || "ltr";
     $(".lang__cur").textContent = lang.toUpperCase();
     renderLangUI();
+    window.LoqeloI18n = { t: t, lang: lang };
     document.dispatchEvent(new CustomEvent("loqelo:lang"));
   }
   function setLang(l, user) {
@@ -338,7 +339,7 @@
       var conn = navigator.connection || {};
       var small = conn.saveData || /2g/.test(conn.effectiveType || "") || (p.clientWidth * (window.devicePixelRatio || 1)) < 1400;
       var v = document.createElement("video");
-      v.src = "assets/video/loqelo-" + (small ? "720" : "1080") + ".mp4";
+      v.src = CFG.base + "assets/video/loqelo-" + (small ? "720" : "1080") + ".mp4";
       v.controls = true; v.playsInline = true; v.preload = "auto";
       v.poster = $(".player__poster", p).currentSrc || "";
       v.setAttribute("aria-label", t("video.play"));
@@ -379,7 +380,7 @@
         var d = new Date(Math.floor(m / 12), m % 12, 1);
         var li = document.createElement("li"); li.className = "tm"; li.style.setProperty("--i", rows.indexOf(m));
         var label = fmt.format(d); label = label.charAt(0).toUpperCase() + label.slice(1);
-        var dot = '<span class="tm__dot">' + (m === launchIdx ? '<img src="assets/img/pin.svg" width="44" height="44" alt="">' : "") + "</span>";
+        var dot = '<span class="tm__dot">' + (m === launchIdx ? '<img src="' + CFG.base + 'assets/img/pin.svg" width="44" height="44" alt="">' : "") + "</span>";
         var tag = "";
         if (m === launchIdx) { li.classList.add("is-launch"); tag = '<span class="tm__tag">' + t("launch.launch") + "</span>"; }
         else if (m === nowIdx) { li.classList.add("is-now"); tag = '<span class="tm__tag">' + t("launch.today") + "</span>"; }

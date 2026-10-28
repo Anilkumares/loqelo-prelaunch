@@ -13,7 +13,9 @@
     "home": "Loqelo home",
     "menuOpen": "Open menu",
     "menuClose": "Close menu",
-    "language": "Language"
+    "language": "Language",
+    "pause": "Pause examples",
+    "play": "Play examples"
   },
   "nav": {
     "how": "How it works",
@@ -251,5 +253,43 @@
     "accept": "Accept analytics",
     "reject": "Reject",
     "more": "Privacy Policy"
+  },
+  "v2": {
+    "metaTitle": "Loqelo – Everything your place needs. Launching February 2027",
+    "exampleLabel": "Example request",
+    "aboutTag": "About Loqelo",
+    "aboutTitle": "One place for everything your home, garden and office needs.",
+    "aboutP1": "Loqelo connects people who need a job done with service providers who can do it. You describe the job once, in your own words, and providers who offer that service in your area can send you an offer.",
+    "aboutP2": "For service providers, Loqelo is a simple way to find requests that match their skills and working area, and to reply with an offer in a few steps.",
+    "seal": "Everything your place needs • Loqelo • ",
+    "f1n": "8",
+    "f1": "service areas",
+    "f2n": "3",
+    "f2": "steps to the right provider",
+    "f3n": "02/2027",
+    "f3": "planned launch",
+    "fCta": "Join the waitlist",
+    "photoAlt": "A modern white house with a large green lawn",
+    "svcTag": "Service areas",
+    "svcTitle": "Help for every corner of your place.",
+    "svcLead": "Describe any job in these areas and Loqelo recognises which services you need.",
+    "svc": {
+      "home": "Cleaning, windows and everyday help around the house.",
+      "garden": "Lawn care, hedge trimming and garden upkeep.",
+      "construction": "Building, renovation and repair work.",
+      "installations": "Plumbing, electrics and fitting appliances.",
+      "pets": "Grooming and care for your animals.",
+      "vehicles": "Car washing, detailing and upholstery cleaning.",
+      "personal": "Support and care for people at home.",
+      "moving": "House moves, deliveries and transport."
+    },
+    "filmTag": "The Loqelo film",
+    "howTag": "How it works",
+    "audTag": "Who it's for",
+    "audTitle": "Made for both sides of the job.",
+    "custPhotoAlt": "A woman relaxing at home with a laptop",
+    "provPhotoAlt": "A technician servicing equipment",
+    "launchTag": "Launch",
+    "wlTag": "Waitlist"
   }
 }

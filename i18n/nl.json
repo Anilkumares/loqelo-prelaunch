@@ -13,7 +13,9 @@
     "home": "Loqelo home",
     "menuOpen": "Menu openen",
     "menuClose": "Menu sluiten",
-    "language": "Taal"
+    "language": "Taal",
+    "pause": "Voorbeelden pauzeren",
+    "play": "Voorbeelden afspelen"
   },
   "nav": {
     "how": "Hoe het werkt",
@@ -251,5 +253,43 @@
     "accept": "Statistieken accepteren",
     "reject": "Weigeren",
     "more": "Privacybeleid"
+  },
+  "v2": {
+    "metaTitle": "Loqelo – Alles wat jouw plek nodig heeft. Lancering februari 2027",
+    "exampleLabel": "Voorbeeldaanvraag",
+    "aboutTag": "Over Loqelo",
+    "aboutTitle": "Eén plek voor alles wat je huis, tuin en kantoor nodig hebben.",
+    "aboutP1": "Loqelo verbindt mensen die een klus willen laten doen met dienstverleners die het kunnen. Je beschrijft de klus één keer, in je eigen woorden, en dienstverleners die die dienst in jouw omgeving aanbieden kunnen je een offerte sturen.",
+    "aboutP2": "Voor dienstverleners is Loqelo een eenvoudige manier om aanvragen te vinden die passen bij hun vak en werkgebied, en om in een paar stappen een offerte te sturen.",
+    "seal": "Alles wat jouw plek nodig heeft • Loqelo • ",
+    "f1n": "8",
+    "f1": "dienstengebieden",
+    "f2n": "3",
+    "f2": "stappen naar de juiste vakman",
+    "f3n": "02/2027",
+    "f3": "geplande lancering",
+    "fCta": "Op de wachtlijst",
+    "photoAlt": "Een modern wit huis met een groot groen gazon",
+    "svcTag": "Dienstengebieden",
+    "svcTitle": "Hulp voor elke hoek van jouw plek.",
+    "svcLead": "Beschrijf een klus in een van deze gebieden en Loqelo herkent welke diensten je nodig hebt.",
+    "svc": {
+      "home": "Schoonmaak, ramen en dagelijkse hulp in huis.",
+      "garden": "Gazononderhoud, heg snoeien en tuinonderhoud.",
+      "construction": "Bouw, renovatie en reparaties.",
+      "installations": "Loodgieterswerk, elektra en apparaten installeren.",
+      "pets": "Verzorging van je huisdieren.",
+      "vehicles": "Auto wassen, detailing en bekleding reinigen.",
+      "personal": "Ondersteuning en zorg voor mensen thuis.",
+      "moving": "Verhuizingen, bezorging en transport."
+    },
+    "filmTag": "De Loqelo-film",
+    "howTag": "Hoe het werkt",
+    "audTag": "Voor wie",
+    "audTitle": "Gemaakt voor beide kanten van de klus.",
+    "custPhotoAlt": "Een vrouw die thuis ontspant met een laptop",
+    "provPhotoAlt": "Een monteur die apparatuur onderhoudt",
+    "launchTag": "Lancering",
+    "wlTag": "Wachtlijst"
   }
 }

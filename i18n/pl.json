@@ -13,7 +13,9 @@
     "home": "Strona główna Loqelo",
     "menuOpen": "Otwórz menu",
     "menuClose": "Zamknij menu",
-    "language": "Język"
+    "language": "Język",
+    "pause": "Wstrzymaj przykłady",
+    "play": "Odtwórz przykłady"
   },
   "nav": {
     "how": "Jak to działa",
@@ -251,5 +253,43 @@
     "accept": "Akceptuję analitykę",
     "reject": "Odrzuć",
     "more": "Polityka prywatności"
+  },
+  "v2": {
+    "metaTitle": "Loqelo – Wszystko, czego potrzebuje Twoje miejsce. Start w lutym 2027",
+    "exampleLabel": "Przykładowe zlecenie",
+    "aboutTag": "O Loqelo",
+    "aboutTitle": "Jedno miejsce na wszystko, czego potrzebuje Twój dom, ogród i biuro.",
+    "aboutP1": "Loqelo łączy osoby, które mają coś do zrobienia, z wykonawcami, którzy potrafią to zrobić. Opisujesz zlecenie raz, własnymi słowami, a wykonawcy oferujący tę usługę w Twojej okolicy mogą przesłać Ci ofertę.",
+    "aboutP2": "Dla wykonawców Loqelo to prosty sposób na znalezienie zleceń pasujących do ich umiejętności i obszaru działania oraz na wysłanie oferty w kilku krokach.",
+    "seal": "Wszystko, czego potrzebuje Twoje miejsce • Loqelo • ",
+    "f1n": "8",
+    "f1": "obszarów usług",
+    "f2n": "3",
+    "f2": "kroki do właściwego wykonawcy",
+    "f3n": "02/2027",
+    "f3": "planowany start",
+    "fCta": "Zapisz się na listę",
+    "photoAlt": "Nowoczesny biały dom z dużym zielonym trawnikiem",
+    "svcTag": "Obszary usług",
+    "svcTitle": "Pomoc w każdym zakątku Twojego miejsca.",
+    "svcLead": "Opisz dowolne zlecenie z tych obszarów, a Loqelo rozpozna, jakich usług potrzebujesz.",
+    "svc": {
+      "home": "Sprzątanie, mycie okien i codzienna pomoc w domu.",
+      "garden": "Pielęgnacja trawnika, przycinanie żywopłotu i prace w ogrodzie.",
+      "construction": "Budowa, remonty i naprawy.",
+      "installations": "Hydraulika, elektryka i montaż urządzeń.",
+      "pets": "Pielęgnacja i opieka nad zwierzętami.",
+      "vehicles": "Mycie samochodu, detailing i pranie tapicerki.",
+      "personal": "Wsparcie i opieka nad osobami w domu.",
+      "moving": "Przeprowadzki, dostawy i transport."
+    },
+    "filmTag": "Film o Loqelo",
+    "howTag": "Jak to działa",
+    "audTag": "Dla kogo",
+    "audTitle": "Stworzone dla obu stron zlecenia.",
+    "custPhotoAlt": "Kobieta odpoczywająca w domu z laptopem",
+    "provPhotoAlt": "Technik serwisujący urządzenie",
+    "launchTag": "Start",
+    "wlTag": "Lista oczekujących"
   }
 }
